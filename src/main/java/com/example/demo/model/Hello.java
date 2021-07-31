@@ -1,9 +1,8 @@
 package com.example.demo.model;
 
-public class Hello {
-    public String name;
+import lombok.Data;
 
-    public Hello(String name){
-        this.name = name;
-    }
+@Data
+public class Hello {
+    final String name;
 }
